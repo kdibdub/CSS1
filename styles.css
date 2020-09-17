@@ -1,11 +1,3 @@
-p:first-of-type {
-  color: #7E8184;
-  font-style: italic;
-}
-.synopsis em {
-  font-style: normal;
-}
-
 .button:link,                 /* Change this */
 .button:visited {             /* Change this */
   display: block;             /* Add this */
@@ -88,6 +80,13 @@ a:visited:active {
   color: red;
 }
 
-p:last-of-type {
-  margin-bottom: 50px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  width: 60px;
 }
